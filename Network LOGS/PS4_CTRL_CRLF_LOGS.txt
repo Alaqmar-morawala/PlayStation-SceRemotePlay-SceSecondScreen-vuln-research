@@ -1,0 +1,694 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    192.168.1.2           192.168.1.4           TCP      66     7041 → 9295 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 1: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7041, Dst Port: 9295, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000774264    192.168.1.2           192.168.1.4           TCP      66     [TCP Retransmission] 7041 → 9295 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 2: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7041, Dst Port: 9295, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.001263299    192.168.1.4           192.168.1.2           TCP      66     9295 → 7041 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460 WS=128 SACK_PERM
+
+Frame 3: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7041, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.001263460    192.168.1.2           192.168.1.4           TCP      60     7041 → 9295 [ACK] Seq=1 Ack=1 Win=131328 Len=0
+
+Frame 4: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7041, Dst Port: 9295, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.001263494    192.168.1.2           192.168.1.4           HTTP     263    GET /sie/ps4/rp/sess/init HTTP/1.1 
+
+Frame 5: 263 bytes on wire (2104 bits), 263 bytes captured (2104 bits) on interface eth0, id 0
+Ethernet II, Src: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7041, Dst Port: 9295, Seq: 1, Ack: 1, Len: 209
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 0.001319955    192.168.1.4           192.168.1.2           TCP      66     [TCP Out-Of-Order] 9295 → 7041 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460 WS=128 SACK_PERM
+
+Frame 6: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7041, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 0.001517897    192.168.1.2           192.168.1.4           TCP      66     [TCP Dup ACK 4#1] 7041 → 9295 [ACK] Seq=210 Ack=1 Win=131328 Len=0 SLE=0 SRE=1
+
+Frame 7: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7041, Dst Port: 9295, Seq: 210, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 0.001736139    192.168.1.2           192.168.1.4           TCP      54     7041 → 9295 [ACK] Seq=1 Ack=1 Win=131328 Len=0
+
+Frame 8: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7041, Dst Port: 9295, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 0.002611570    192.168.1.2           192.168.1.4           TCP      263    [TCP Retransmission] 7041 → 9295 [PSH, ACK] Seq=1 Ack=1 Win=131328 Len=209
+
+Frame 9: 263 bytes on wire (2104 bits), 263 bytes captured (2104 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7041, Dst Port: 9295, Seq: 1, Ack: 1, Len: 209
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 0.002895738    192.168.1.2           192.168.1.4           TCP      66     [TCP Dup ACK 4#2] 7041 → 9295 [ACK] Seq=210 Ack=1 Win=131328 Len=0 SLE=0 SRE=1
+
+Frame 10: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7041, Dst Port: 9295, Seq: 210, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 0.005303186    192.168.1.4           192.168.1.2           HTTP     206    HTTP/1.1 200 OK 
+
+Frame 11: 206 bytes on wire (1648 bits), 206 bytes captured (1648 bits) on interface eth0, id 0
+Ethernet II, Src: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7041, Seq: 1, Ack: 210, Len: 152
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 0.005303470    192.168.1.4           192.168.1.2           TCP      60     9295 → 7041 [FIN, ACK] Seq=153 Ack=210 Win=65664 Len=0
+
+Frame 12: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7041, Seq: 153, Ack: 210, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 0.005303502    192.168.1.2           192.168.1.4           TCP      60     7041 → 9295 [ACK] Seq=210 Ack=154 Win=131072 Len=0
+
+Frame 13: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7041, Dst Port: 9295, Seq: 210, Ack: 154, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 0.005303535    192.168.1.2           192.168.1.4           TCP      60     7041 → 9295 [FIN, ACK] Seq=210 Ack=154 Win=131072 Len=0
+
+Frame 14: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7041, Dst Port: 9295, Seq: 210, Ack: 154, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 0.005322258    192.168.1.4           192.168.1.2           TCP      206    [TCP Spurious Retransmission] 9295 → 7041 [PSH, ACK] Seq=1 Ack=210 Win=65664 Len=152
+
+Frame 15: 206 bytes on wire (1648 bits), 206 bytes captured (1648 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7041, Seq: 1, Ack: 210, Len: 152
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 0.005422906    192.168.1.4           192.168.1.2           TCP      54     [TCP Retransmission] 9295 → 7041 [FIN, ACK] Seq=153 Ack=210 Win=65664 Len=0
+
+Frame 16: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7041, Seq: 153, Ack: 210, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 0.005784880    192.168.1.2           192.168.1.4           TCP      66     [TCP Dup ACK 13#1] 7041 → 9295 [ACK] Seq=211 Ack=154 Win=131072 Len=0 SLE=1 SRE=153
+
+Frame 17: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7041, Dst Port: 9295, Seq: 211, Ack: 154, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 0.005785042    192.168.1.2           192.168.1.4           TCP      60     [TCP Dup ACK 13#2] 7041 → 9295 [ACK] Seq=211 Ack=154 Win=131072 Len=0
+
+Frame 18: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7041, Dst Port: 9295, Seq: 211, Ack: 154, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 0.006189955    192.168.1.2           192.168.1.4           TCP      54     [TCP Keep-Alive] 7041 → 9295 [ACK] Seq=210 Ack=154 Win=131072 Len=0
+
+Frame 19: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7041, Dst Port: 9295, Seq: 210, Ack: 154, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 0.006459004    192.168.1.2           192.168.1.4           TCP      54     [TCP Retransmission] 7041 → 9295 [FIN, ACK] Seq=210 Ack=154 Win=131072 Len=0
+
+Frame 20: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7041, Dst Port: 9295, Seq: 210, Ack: 154, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 0.006703578    192.168.1.2           192.168.1.4           TCP      66     [TCP Dup ACK 13#3] 7041 → 9295 [ACK] Seq=211 Ack=154 Win=131072 Len=0 SLE=1 SRE=153
+
+Frame 21: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7041, Dst Port: 9295, Seq: 211, Ack: 154, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 0.006896463    192.168.1.2           192.168.1.4           TCP      54     [TCP Dup ACK 13#4] 7041 → 9295 [ACK] Seq=211 Ack=154 Win=131072 Len=0
+
+Frame 22: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7041, Dst Port: 9295, Seq: 211, Ack: 154, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 0.007079031    192.168.1.4           192.168.1.2           TCP      60     9295 → 7041 [ACK] Seq=154 Ack=211 Win=65664 Len=0
+
+Frame 23: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7041, Seq: 154, Ack: 211, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 0.007088059    192.168.1.4           192.168.1.2           TCP      54     [TCP Dup ACK 23#1] 9295 → 7041 [ACK] Seq=154 Ack=211 Win=65664 Len=0
+
+Frame 24: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7041, Seq: 154, Ack: 211, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 0.307384344    192.168.1.2           192.168.1.4           TCP      66     7042 → 9295 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 25: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7042, Dst Port: 9295, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 0.307975898    192.168.1.2           192.168.1.4           TCP      66     [TCP Retransmission] 7042 → 9295 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 26: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7042, Dst Port: 9295, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 0.308495180    192.168.1.4           192.168.1.2           TCP      66     9295 → 7042 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460 WS=128 SACK_PERM
+
+Frame 27: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 0.308495385    192.168.1.2           192.168.1.4           TCP      60     7042 → 9295 [ACK] Seq=1 Ack=1 Win=131328 Len=0
+
+Frame 28: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7042, Dst Port: 9295, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 0.308578041    192.168.1.4           192.168.1.2           TCP      66     [TCP Out-Of-Order] 9295 → 7042 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460 WS=128 SACK_PERM
+
+Frame 29: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 0.308804560    192.168.1.2           192.168.1.4           TCP      66     [TCP Dup ACK 28#1] 7042 → 9295 [ACK] Seq=1 Ack=1 Win=131328 Len=0 SLE=0 SRE=1
+
+Frame 30: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7042, Dst Port: 9295, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 0.308804961    192.168.1.2           192.168.1.4           HTTP     433    GET /sie/ps4/rp/sess/ctrl HTTP/1.1 
+
+Frame 31: 433 bytes on wire (3464 bits), 433 bytes captured (3464 bits) on interface eth0, id 0
+Ethernet II, Src: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7042, Dst Port: 9295, Seq: 1, Ack: 1, Len: 379
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 0.309283008    192.168.1.2           192.168.1.4           TCP      54     7042 → 9295 [ACK] Seq=1 Ack=1 Win=131328 Len=0
+
+Frame 32: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7042, Dst Port: 9295, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 0.309644018    192.168.1.2           192.168.1.4           TCP      66     7042 → 9295 [ACK] Seq=1 Ack=1 Win=131328 Len=0 SLE=0 SRE=1
+
+Frame 33: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7042, Dst Port: 9295, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 0.310890409    192.168.1.2           192.168.1.4           TCP      524    [TCP Retransmission] 7042 → 9295 [PSH, ACK] Seq=1 Ack=1 Win=131328 Len=470
+
+Frame 34: 524 bytes on wire (4192 bits), 524 bytes captured (4192 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7042, Dst Port: 9295, Seq: 1, Ack: 1, Len: 470
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 0.315725319    192.168.1.4           192.168.1.2           HTTP     310    [TCP ACKed unseen segment] HTTP/1.1 200 OK 
+
+Frame 35: 310 bytes on wire (2480 bits), 310 bytes captured (2480 bits) on interface eth0, id 0
+Ethernet II, Src: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 1, Ack: 471, Len: 256
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     36 0.315738801    192.168.1.4           192.168.1.2           TCP      310    [TCP Retransmission] 9295 → 7042 [PSH, ACK] Seq=1 Ack=471 Win=65664 Len=256
+
+Frame 36: 310 bytes on wire (2480 bits), 310 bytes captured (2480 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 1, Ack: 471, Len: 256
+
+No.     Time           Source                Destination           Protocol Length Info
+     37 0.614247034    192.168.1.2           192.168.1.4           TCP      433    [TCP Spurious Retransmission] 7042 → 9295 [PSH, ACK] Seq=1 Ack=1 Win=131328 Len=379
+
+Frame 37: 433 bytes on wire (3464 bits), 433 bytes captured (3464 bits) on interface eth0, id 0
+Ethernet II, Src: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7042, Dst Port: 9295, Seq: 1, Ack: 1, Len: 379
+
+No.     Time           Source                Destination           Protocol Length Info
+     38 0.615832232    192.168.1.2           192.168.1.4           TCP      524    [TCP Spurious Retransmission] 7042 → 9295 [PSH, ACK] Seq=1 Ack=1 Win=131328 Len=470
+
+Frame 38: 524 bytes on wire (4192 bits), 524 bytes captured (4192 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7042, Dst Port: 9295, Seq: 1, Ack: 1, Len: 470
+
+No.     Time           Source                Destination           Protocol Length Info
+     39 0.616547845    192.168.1.4           192.168.1.2           HTTP     98     Continuation
+
+Frame 39: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface eth0, id 0
+Ethernet II, Src: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 257, Ack: 471, Len: 44
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     40 0.616621895    192.168.1.4           192.168.1.2           TCP      98     [TCP Retransmission] 9295 → 7042 [PSH, ACK] Seq=257 Ack=471 Win=65664 Len=44
+
+Frame 40: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 257, Ack: 471, Len: 44
+
+No.     Time           Source                Destination           Protocol Length Info
+     41 1.219620126    192.168.1.2           192.168.1.4           TCP      433    [TCP Spurious Retransmission] 7042 → 9295 [PSH, ACK] Seq=1 Ack=1 Win=131328 Len=379
+
+Frame 41: 433 bytes on wire (3464 bits), 433 bytes captured (3464 bits) on interface eth0, id 0
+Ethernet II, Src: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7042, Dst Port: 9295, Seq: 1, Ack: 1, Len: 379
+
+No.     Time           Source                Destination           Protocol Length Info
+     42 1.221826849    192.168.1.2           192.168.1.4           TCP      524    [TCP Spurious Retransmission] 7042 → 9295 [PSH, ACK] Seq=1 Ack=1 Win=131328 Len=470
+
+Frame 42: 524 bytes on wire (4192 bits), 524 bytes captured (4192 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7042, Dst Port: 9295, Seq: 1, Ack: 1, Len: 470
+
+No.     Time           Source                Destination           Protocol Length Info
+     43 1.222407026    192.168.1.4           192.168.1.2           HTTP     64     Continuation
+
+Frame 43: 64 bytes on wire (512 bits), 64 bytes captured (512 bits) on interface eth0, id 0
+Ethernet II, Src: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 301, Ack: 471, Len: 10
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     44 1.222462628    192.168.1.4           192.168.1.2           TCP      64     [TCP Retransmission] 9295 → 7042 [PSH, ACK] Seq=301 Ack=471 Win=65664 Len=10
+
+Frame 44: 64 bytes on wire (512 bits), 64 bytes captured (512 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 301, Ack: 471, Len: 10
+
+No.     Time           Source                Destination           Protocol Length Info
+     45 1.315361048    192.168.1.4           192.168.1.2           TCP      364    [TCP Retransmission] 9295 → 7042 [PSH, ACK] Seq=1 Ack=471 Win=65664 Len=310
+
+Frame 45: 364 bytes on wire (2912 bits), 364 bytes captured (2912 bits) on interface eth0, id 0
+Ethernet II, Src: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 1, Ack: 471, Len: 310
+
+No.     Time           Source                Destination           Protocol Length Info
+     46 1.315376741    192.168.1.4           192.168.1.2           TCP      364    [TCP Retransmission] 9295 → 7042 [PSH, ACK] Seq=1 Ack=471 Win=65664 Len=310
+
+Frame 46: 364 bytes on wire (2912 bits), 364 bytes captured (2912 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 1, Ack: 471, Len: 310
+
+No.     Time           Source                Destination           Protocol Length Info
+     47 2.427750068    192.168.1.2           192.168.1.4           TCP      433    [TCP Spurious Retransmission] 7042 → 9295 [PSH, ACK] Seq=1 Ack=1 Win=131328 Len=379
+
+Frame 47: 433 bytes on wire (3464 bits), 433 bytes captured (3464 bits) on interface eth0, id 0
+Ethernet II, Src: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7042, Dst Port: 9295, Seq: 1, Ack: 1, Len: 379
+
+No.     Time           Source                Destination           Protocol Length Info
+     48 2.429292550    192.168.1.2           192.168.1.4           TCP      524    [TCP Spurious Retransmission] 7042 → 9295 [PSH, ACK] Seq=1 Ack=1 Win=131328 Len=470
+
+Frame 48: 524 bytes on wire (4192 bits), 524 bytes captured (4192 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7042, Dst Port: 9295, Seq: 1, Ack: 1, Len: 470
+
+No.     Time           Source                Destination           Protocol Length Info
+     49 2.429959512    192.168.1.4           192.168.1.2           TCP      60     [TCP Dup ACK 35#1] 9295 → 7042 [ACK] Seq=311 Ack=471 Win=65664 Len=0
+
+Frame 49: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 311, Ack: 471, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     50 2.430019108    192.168.1.4           192.168.1.2           TCP      54     [TCP Dup ACK 35#2] 9295 → 7042 [ACK] Seq=311 Ack=471 Win=65664 Len=0
+
+Frame 50: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 311, Ack: 471, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     51 3.515327354    192.168.1.4           192.168.1.2           TCP      364    [TCP Retransmission] 9295 → 7042 [PSH, ACK] Seq=1 Ack=471 Win=65664 Len=310
+
+Frame 51: 364 bytes on wire (2912 bits), 364 bytes captured (2912 bits) on interface eth0, id 0
+Ethernet II, Src: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 1, Ack: 471, Len: 310
+
+No.     Time           Source                Destination           Protocol Length Info
+     52 3.515428522    192.168.1.4           192.168.1.2           TCP      364    [TCP Retransmission] 9295 → 7042 [PSH, ACK] Seq=1 Ack=471 Win=65664 Len=310
+
+Frame 52: 364 bytes on wire (2912 bits), 364 bytes captured (2912 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 1, Ack: 471, Len: 310
+
+No.     Time           Source                Destination           Protocol Length Info
+     53 4.841737367    192.168.1.2           192.168.1.4           TCP      433    [TCP Spurious Retransmission] 7042 → 9295 [PSH, ACK] Seq=1 Ack=1 Win=131328 Len=379
+
+Frame 53: 433 bytes on wire (3464 bits), 433 bytes captured (3464 bits) on interface eth0, id 0
+Ethernet II, Src: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7042, Dst Port: 9295, Seq: 1, Ack: 1, Len: 379
+
+No.     Time           Source                Destination           Protocol Length Info
+     54 4.843157485    192.168.1.2           192.168.1.4           TCP      524    [TCP Spurious Retransmission] 7042 → 9295 [PSH, ACK] Seq=1 Ack=1 Win=131328 Len=470
+
+Frame 54: 524 bytes on wire (4192 bits), 524 bytes captured (4192 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7042, Dst Port: 9295, Seq: 1, Ack: 1, Len: 470
+
+No.     Time           Source                Destination           Protocol Length Info
+     55 4.843885359    192.168.1.4           192.168.1.2           TCP      60     [TCP Dup ACK 35#3] 9295 → 7042 [ACK] Seq=311 Ack=471 Win=65664 Len=0
+
+Frame 55: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 311, Ack: 471, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     56 4.843951970    192.168.1.4           192.168.1.2           TCP      54     [TCP Dup ACK 35#4] 9295 → 7042 [ACK] Seq=311 Ack=471 Win=65664 Len=0
+
+Frame 56: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 311, Ack: 471, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     57 7.715898462    192.168.1.4           192.168.1.2           TCP      372    [TCP Retransmission] 9295 → 7042 [PSH, ACK] Seq=1 Ack=471 Win=65664 Len=318
+
+Frame 57: 372 bytes on wire (2976 bits), 372 bytes captured (2976 bits) on interface eth0, id 0
+Ethernet II, Src: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 1, Ack: 471, Len: 318
+
+No.     Time           Source                Destination           Protocol Length Info
+     58 7.716262391    192.168.1.4           192.168.1.2           TCP      372    [TCP Retransmission] 9295 → 7042 [PSH, ACK] Seq=1 Ack=471 Win=65664 Len=318
+
+Frame 58: 372 bytes on wire (2976 bits), 372 bytes captured (2976 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 1, Ack: 471, Len: 318
+
+No.     Time           Source                Destination           Protocol Length Info
+     59 9.644246583    192.168.1.2           192.168.1.4           TCP      433    [TCP Spurious Retransmission] 7042 → 9295 [PSH, ACK] Seq=1 Ack=1 Win=131328 Len=379
+
+Frame 59: 433 bytes on wire (3464 bits), 433 bytes captured (3464 bits) on interface eth0, id 0
+Ethernet II, Src: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7042, Dst Port: 9295, Seq: 1, Ack: 1, Len: 379
+
+No.     Time           Source                Destination           Protocol Length Info
+     60 9.645755613    192.168.1.2           192.168.1.4           TCP      524    [TCP Spurious Retransmission] 7042 → 9295 [PSH, ACK] Seq=1 Ack=1 Win=131328 Len=470
+
+Frame 60: 524 bytes on wire (4192 bits), 524 bytes captured (4192 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7042, Dst Port: 9295, Seq: 1, Ack: 1, Len: 470
+
+No.     Time           Source                Destination           Protocol Length Info
+     61 9.646440462    192.168.1.4           192.168.1.2           TCP      60     [TCP Dup ACK 35#5] 9295 → 7042 [ACK] Seq=319 Ack=471 Win=65664 Len=0
+
+Frame 61: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 319, Ack: 471, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     62 9.646451636    192.168.1.4           192.168.1.2           TCP      54     [TCP Dup ACK 35#6] 9295 → 7042 [ACK] Seq=319 Ack=471 Win=65664 Len=0
+
+Frame 62: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 319, Ack: 471, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     63 15.915460297   192.168.1.4           192.168.1.2           TCP      388    [TCP Retransmission] 9295 → 7042 [PSH, ACK] Seq=1 Ack=471 Win=65664 Len=334
+
+Frame 63: 388 bytes on wire (3104 bits), 388 bytes captured (3104 bits) on interface eth0, id 0
+Ethernet II, Src: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 1, Ack: 471, Len: 334
+
+No.     Time           Source                Destination           Protocol Length Info
+     64 15.915736386   192.168.1.4           192.168.1.2           TCP      388    [TCP Retransmission] 9295 → 7042 [PSH, ACK] Seq=1 Ack=471 Win=65664 Len=334
+
+Frame 64: 388 bytes on wire (3104 bits), 388 bytes captured (3104 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 1, Ack: 471, Len: 334
+
+No.     Time           Source                Destination           Protocol Length Info
+     65 19.252880771   192.168.1.2           192.168.1.4           TCP      60     7042 → 9295 [RST, ACK] Seq=380 Ack=1 Win=0 Len=0
+
+Frame 65: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7042, Dst Port: 9295, Seq: 380, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     66 19.253700196   192.168.1.2           192.168.1.4           TCP      54     7042 → 9295 [RST, ACK] Seq=380 Ack=1 Win=0 Len=0
+
+Frame 66: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 7042, Dst Port: 9295, Seq: 380, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     67 32.115167595   192.168.1.4           192.168.1.2           TCP      412    [TCP Retransmission] 9295 → 7042 [PSH, ACK] Seq=1 Ack=471 Win=65664 Len=358
+
+Frame 67: 412 bytes on wire (3296 bits), 412 bytes captured (3296 bits) on interface eth0, id 0
+Ethernet II, Src: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 1, Ack: 471, Len: 358
+
+No.     Time           Source                Destination           Protocol Length Info
+     68 32.115184581   192.168.1.4           192.168.1.2           TCP      412    [TCP Retransmission] 9295 → 7042 [PSH, ACK] Seq=1 Ack=471 Win=65664 Len=358
+
+Frame 68: 412 bytes on wire (3296 bits), 412 bytes captured (3296 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 1, Ack: 471, Len: 358
+
+No.     Time           Source                Destination           Protocol Length Info
+     69 36.305444242   192.168.1.4           192.168.1.2           HTTP     62     Continuation
+
+Frame 69: 62 bytes on wire (496 bits), 62 bytes captured (496 bits) on interface eth0, id 0
+Ethernet II, Src: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 359, Ack: 471, Len: 8
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     70 36.305459925   192.168.1.4           192.168.1.2           TCP      62     [TCP Retransmission] 9295 → 7042 [FIN, PSH, ACK] Seq=359 Ack=471 Win=65664 Len=8
+
+Frame 70: 62 bytes on wire (496 bits), 62 bytes captured (496 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 359, Ack: 471, Len: 8
+
+No.     Time           Source                Destination           Protocol Length Info
+     71 64.315059095   192.168.1.4           192.168.1.2           TCP      420    [TCP Retransmission] 9295 → 7042 [FIN, PSH, ACK] Seq=1 Ack=471 Win=65664 Len=366
+
+Frame 71: 420 bytes on wire (3360 bits), 420 bytes captured (3360 bits) on interface eth0, id 0
+Ethernet II, Src: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 1, Ack: 471, Len: 366
+
+No.     Time           Source                Destination           Protocol Length Info
+     72 64.315136223   192.168.1.4           192.168.1.2           TCP      420    [TCP Retransmission] 9295 → 7042 [FIN, PSH, ACK] Seq=1 Ack=471 Win=65664 Len=366
+
+Frame 72: 420 bytes on wire (3360 bits), 420 bytes captured (3360 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 1, Ack: 471, Len: 366
+
+No.     Time           Source                Destination           Protocol Length Info
+     73 128.314826274  192.168.1.4           192.168.1.2           TCP      420    [TCP Retransmission] 9295 → 7042 [FIN, PSH, ACK] Seq=1 Ack=471 Win=65664 Len=366
+
+Frame 73: 420 bytes on wire (3360 bits), 420 bytes captured (3360 bits) on interface eth0, id 0
+Ethernet II, Src: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 1, Ack: 471, Len: 366
+
+No.     Time           Source                Destination           Protocol Length Info
+     74 128.314904005  192.168.1.4           192.168.1.2           TCP      420    [TCP Retransmission] 9295 → 7042 [FIN, PSH, ACK] Seq=1 Ack=471 Win=65664 Len=366
+
+Frame 74: 420 bytes on wire (3360 bits), 420 bytes captured (3360 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 1, Ack: 471, Len: 366
+
+No.     Time           Source                Destination           Protocol Length Info
+     75 192.315065949  192.168.1.4           192.168.1.2           TCP      420    [TCP Retransmission] 9295 → 7042 [FIN, PSH, ACK] Seq=1 Ack=471 Win=65664 Len=366
+
+Frame 75: 420 bytes on wire (3360 bits), 420 bytes captured (3360 bits) on interface eth0, id 0
+Ethernet II, Src: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 1, Ack: 471, Len: 366
+
+No.     Time           Source                Destination           Protocol Length Info
+     76 192.315207568  192.168.1.4           192.168.1.2           TCP      420    [TCP Retransmission] 9295 → 7042 [FIN, PSH, ACK] Seq=1 Ack=471 Win=65664 Len=366
+
+Frame 76: 420 bytes on wire (3360 bits), 420 bytes captured (3360 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 1, Ack: 471, Len: 366
+
+No.     Time           Source                Destination           Protocol Length Info
+     77 256.314248458  192.168.1.4           192.168.1.2           TCP      420    [TCP Retransmission] 9295 → 7042 [FIN, PSH, ACK] Seq=1 Ack=471 Win=65664 Len=366
+
+Frame 77: 420 bytes on wire (3360 bits), 420 bytes captured (3360 bits) on interface eth0, id 0
+Ethernet II, Src: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 1, Ack: 471, Len: 366
+
+No.     Time           Source                Destination           Protocol Length Info
+     78 256.314331226  192.168.1.4           192.168.1.2           TCP      420    [TCP Retransmission] 9295 → 7042 [FIN, PSH, ACK] Seq=1 Ack=471 Win=65664 Len=366
+
+Frame 78: 420 bytes on wire (3360 bits), 420 bytes captured (3360 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 1, Ack: 471, Len: 366
+
+No.     Time           Source                Destination           Protocol Length Info
+     79 320.314286771  192.168.1.4           192.168.1.2           TCP      420    [TCP Retransmission] 9295 → 7042 [FIN, PSH, ACK] Seq=1 Ack=471 Win=65664 Len=366
+
+Frame 79: 420 bytes on wire (3360 bits), 420 bytes captured (3360 bits) on interface eth0, id 0
+Ethernet II, Src: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 1, Ack: 471, Len: 366
+
+No.     Time           Source                Destination           Protocol Length Info
+     80 320.314419753  192.168.1.4           192.168.1.2           TCP      420    [TCP Retransmission] 9295 → 7042 [FIN, PSH, ACK] Seq=1 Ack=471 Win=65664 Len=366
+
+Frame 80: 420 bytes on wire (3360 bits), 420 bytes captured (3360 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 1, Ack: 471, Len: 366
+
+No.     Time           Source                Destination           Protocol Length Info
+     81 384.313830704  192.168.1.4           192.168.1.2           TCP      420    [TCP Retransmission] 9295 → 7042 [FIN, PSH, ACK] Seq=1 Ack=471 Win=65664 Len=366
+
+Frame 81: 420 bytes on wire (3360 bits), 420 bytes captured (3360 bits) on interface eth0, id 0
+Ethernet II, Src: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 1, Ack: 471, Len: 366
+
+No.     Time           Source                Destination           Protocol Length Info
+     82 384.313954204  192.168.1.4           192.168.1.2           TCP      420    [TCP Retransmission] 9295 → 7042 [FIN, PSH, ACK] Seq=1 Ack=471 Win=65664 Len=366
+
+Frame 82: 420 bytes on wire (3360 bits), 420 bytes captured (3360 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 1, Ack: 471, Len: 366
+
+No.     Time           Source                Destination           Protocol Length Info
+     83 448.313738581  192.168.1.4           192.168.1.2           TCP      420    [TCP Retransmission] 9295 → 7042 [FIN, PSH, ACK] Seq=1 Ack=471 Win=65664 Len=366
+
+Frame 83: 420 bytes on wire (3360 bits), 420 bytes captured (3360 bits) on interface eth0, id 0
+Ethernet II, Src: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 1, Ack: 471, Len: 366
+
+No.     Time           Source                Destination           Protocol Length Info
+     84 448.313896965  192.168.1.4           192.168.1.2           TCP      420    [TCP Retransmission] 9295 → 7042 [FIN, PSH, ACK] Seq=1 Ack=471 Win=65664 Len=366
+
+Frame 84: 420 bytes on wire (3360 bits), 420 bytes captured (3360 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 1, Ack: 471, Len: 366
+
+No.     Time           Source                Destination           Protocol Length Info
+     85 512.312839987  192.168.1.4           192.168.1.2           TCP      60     9295 → 7042 [RST, ACK] Seq=368 Ack=471 Win=65664 Len=0
+
+Frame 85: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: SonyInteract_40:2d:55 (c8:63:f1:40:2d:55), Dst: VMware_24:ab:08 (00:0c:29:24:ab:08)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 368, Ack: 471, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     86 512.312967887  192.168.1.4           192.168.1.2           TCP      54     9295 → 7042 [RST, ACK] Seq=368 Ack=471 Win=65664 Len=0
+
+Frame 86: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_24:ab:08 (00:0c:29:24:ab:08), Dst: WistronInfoC_d9:d9:18 (54:ee:75:d9:d9:18)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.2
+Transmission Control Protocol, Src Port: 9295, Dst Port: 7042, Seq: 368, Ack: 471, Len: 0
